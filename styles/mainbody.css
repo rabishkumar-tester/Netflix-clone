@@ -1,6 +1,7 @@
-.mainbody {
+.main-body {
     width: 100%;
     max-width: 192rem;
-    height: 150rem;
-    background: white;
+    margin: auto;
+    background: black;
+    position: relative;
 }

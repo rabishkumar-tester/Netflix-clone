@@ -1,16 +1,19 @@
-main {
-    max-width: 100%;
+.head {
+    width: 100%;
+    max-width: 192rem;
+    margin: auto;
+    height: auto;
 }
-
 
 .top {
     width: 100%;
-    height: 98rem;
-    margin: auto;
+    max-width: 192rem;
+    height: 80rem;
+    margin: 0 auto;
     display: flex;
     flex-direction: column;
     position: relative;
-    top: 0;
+    top: -3rem;
     left: 50%;
     transform: translate(-50%);
     overflow: hidden;
@@ -19,24 +22,33 @@ main {
 }
 
 .top-background {
-    position: absolute;
-    left: 50%;
-    transform: translate(-50%);
+    position: relative;
     z-index: -1;
     top:  -2rem;
     margin: auto;
     width: 100%;
+    height: 90rem;
     max-width: 192rem;
+    object-fit: cover;
+    object-position: center;
     
 }
 
 .overlay {
-    background: linear-gradient(360deg, rgba(0, 0, 0, 0.8500) 3.000%, rgba(0, 0, 0, 0.8465) 11.08%, rgba(0, 0, 0, 0.8361) 19.17%, rgba(0, 0, 0, 0.8187) 27.25%, rgba(0, 0, 0, 0.7944) 35.33%, rgba(0, 0, 0, 0.7632) 43.42%, rgba(0, 0, 0, 0.7250) 51.50%, rgba(0, 0, 0, 0.6868) 59.58%, rgba(0, 0, 0, 0.6556) 67.67%, rgba(0, 0, 0, 0.6313) 75.75%, rgba(0, 0, 0, 0.6139) 83.83%, rgba(0, 0, 0, 0.7035) 91.92%, rgba(0,0,0,0.8) 95%,rgba(0, 0, 0, 0.9) 99.0%);
+    background: linear-gradient(360deg, rgba(0, 0, 0, 0.8500) 3.000%, rgba(0, 0, 0, 0.8465) 11.08%, rgba(0, 0, 0, 0.8361) 19.17%, rgba(0, 0, 0, 0.8187) 27.25%, rgba(0, 0, 0, 0.7944) 35.33%, rgba(0, 0, 0, 0.7632) 43.42%, rgba(0, 0, 0, 0.7250) 51.50%, rgba(0, 0, 0, 0.6868) 59.58%, rgba(0, 0, 0, 0.6556) 67.67%, rgba(0, 0, 0, 0.6313) 75.75%, rgba(0, 0, 0, 0.6139) 83.83%, rgba(0, 0, 0, 0.7035) 91.92%, rgba(0,0,0,0.8) 95%,rgba(0, 0, 0, 0.9) 96.0%);
     position: absolute;
     top: 0;
     height: 100%;
     width: 100%;
     z-index: 999;
+}
+.bgimage {
+    height: 80rem;
+    width: 100%;
+    max-width: 192rem;
+    margin: auto;
+    color: red;
+    position: relative;
 }
 
 /* .overlay2 {
@@ -49,14 +61,14 @@ main {
 } */
 
 
+
+
 .center-content {
     height: 100%;
     width: 100%;
+    max-width: 192rem;
     display: flex;
-    position: relative;
-    top: 0;
-    left: 0;
-    max-width: 120rem;
+    position: absolute;
     margin: auto;
     display: flex;
     flex-direction: column;

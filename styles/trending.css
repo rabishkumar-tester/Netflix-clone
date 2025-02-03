@@ -1,0 +1,72 @@
+.trending {
+    height: 32rem;
+    width: 100%;
+    max-width: 192rem;
+    background: black;
+    margin: auto;
+    position: relative;
+    top: -10rem;
+    z-index: 50;
+
+
+}
+
+.trending-content {
+    position: relative;
+    width: 80%;
+    display: flex;
+    margin: auto;
+    justify-content: flex-start;
+}
+.trending-text {
+    position: absolute;
+    z-index: 99;
+    color: white;
+    font-size: 2.5rem;
+    height: 4rem;
+    width: 80%;
+    margin: auto;
+    font-weight: 600;
+    top: -5rem;
+    left: rem;
+
+}
+
+.trending-list{
+    display: flex;
+    width: 100%;
+    margin: auto;
+    gap: 5rem;
+    height: 30rem;
+    padding-left: 3rem;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+.trending-card {
+    position: relative;
+    width: 18.7rem;
+    height: 26.3rem;
+    
+}
+
+.card-image {
+    border-radius: 1rem;
+    width: 18.7rem;
+    height: 26.3rem;
+    object-fit: cover;
+    object-position: calc();
+}
+
+.card-number {
+    position: absolute;
+    height: 10rem;
+    width: 6.4rem;
+    font-size: 11rem;
+    color: black;
+    bottom: 2rem;
+    left: -2.5rem;
+    text-shadow: 0 0 2rem rgba(163, 112, 112, 0.5);
+    -webkit-text-stroke: 0.25rem rgb(245, 230, 230);;
+    font-weight: 700;
+}

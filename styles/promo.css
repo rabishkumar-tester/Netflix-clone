@@ -1,0 +1,67 @@
+.promo {
+    height: 35rem;
+    width: 100%;
+    margin: auto;
+    max-width: 192rem;
+    background: black;
+    margin: auto;
+    position: relative;
+    top: -10rem;
+    z-index: 55;
+    margin-top: 3rem;
+
+}
+
+.promo-content {
+    width: 80%;
+    margin: auto;
+
+}
+
+.promo-text {
+    color: white;
+    font-size: 2.5rem;
+    font-weight: 700;
+
+}
+
+
+
+.promo-list {
+    display: flex;
+    height: 25rem;
+    width: 100%;
+    margin-top: 2rem;
+    flex-direction: row;
+    column-gap: 1.5rem;
+}
+
+.promo-card {
+    height: 100%;
+    width: 24.9%;
+    background: linear-gradient( 149deg, #192247 0%, #210e17 96.86% );
+    padding: 1.5rem;
+    position: relative;
+    border-radius: 1rem;
+}
+
+.h1-promo {
+    font-size: 2.5rem;
+    color:white;
+    width: 100%;
+    margin-top: 0.8rem;
+    font-weight: 600;
+}
+
+.p-promo {
+    font-size: 1.5rem;
+    margin-top: 3rem;
+    line-height: 2rem;
+    color: rgba(255,255,255,0.7);
+}
+
+.promo-image {
+    position: absolute;
+    bottom: 1rem;
+    right: 1rem;
+}

@@ -79,4 +79,31 @@
     
 }
 
+.question-button {
+    width: 80%;
+    margin: auto;
+    height: 10rem;
+    display: flex;
+    align-items: center;
+    margin-top: 5rem;
+}
+
+.sign-up2 {
+    background-color: rgb(193,17,25);;
+    width: 25rem;
+    height: 5.6rem;
+    color: white;
+    font-size: 2.5rem;
+    padding: 0.3rem;
+    border: none;
+    border-radius: 1rem;
+}
+
+.sign-up2 i {
+    font-size: 2rem;
+    margin-left: 1.4rem;
+}
+
+
+
 

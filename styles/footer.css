@@ -2,15 +2,16 @@
 footer {
     width: 100%;
     max-width: 192rem;
+    height: 40rem;
     margin: auto;
-    position: relative;
-    z-index: 0;
-    margin-bottom: 5rem;
-    background-color: black;
+    margin-top: 2rem;
+    bottom: 0;
+    margin-bottom: 4rem;
 }
 
 .footer-data {
     width: 80%;
+    height: 40rem;
     max-width: 192rem;
     margin: auto;
     display: flex;

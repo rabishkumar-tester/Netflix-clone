@@ -1,13 +1,24 @@
 const accordions = document.querySelectorAll('.accordion');
 
-
 accordions.forEach((accordion) => {
     accordion.addEventListener('click',function()  {
         const elementData = accordion.lastElementChild;
-        console.log(elementData);
-        elementData.classList.toggle('show');
+        const icon = accordion.querySelector('i');
 
-        const icon = this.querySelector('i');
-        icon.classList.toggle('animate');
+        if(elementData.classList.contains('show')){
+            elementData.classList.remove('show');
+            icon.classList.remove('animate');
+        }else{
+            elementData.classList.add('show');
+            icon.classList.add('animate');
+            accordions.forEach((otherAccordion) => {
+                const secondElementData = otherAccordion.lastElementChild;
+                const secondIcon = otherAccordion.querySelector('i');
+                if(elementData != secondElementData){
+                    secondElementData.classList.remove('show');
+                    secondIcon.classList.remove('animate');
+                }
+            });
+        }
     });
 });

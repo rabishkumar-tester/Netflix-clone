@@ -42,6 +42,17 @@
     width: 100%;
     z-index: 999;
 }
+
+.overlay2 {
+    background: radial-gradient(11% 56% at 17% 50%, #461518 0%, transparent 100%),radial-gradient(11% 56% at 83% 50%, #461518 0%, transparent 100%);
+    position: absolute;
+    top:0;
+    height: 31%;
+    width: 298rem;
+    z-index: -500;
+    left: 50%;
+    transform: translate(-50%);
+}
 .bgimage {
     height: 80rem;
     width: 100%;

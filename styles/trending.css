@@ -1,14 +1,11 @@
 .trending {
-    height: 32rem;
+    height: 60rem;
     width: 100%;
     max-width: 192rem;
     background: black;
-
     margin: auto;
-    margin-top: 10rem;
+    margin-top: 0rem;
     position: relative;
-    top: -10rem;
-    z-index: 50;
 
 
 }
@@ -17,21 +14,19 @@
     position: relative;
     width: 80%;
     display: flex;
+    flex-direction: column;
     margin: auto;
+    height: 50rem;
     justify-content: flex-start;
 }
 .trending-text {
-    position: absolute;
-    z-index: 99;
+    position: relative;
     color: white;
     font-size: 2.5rem;
     height: 4rem;
     width: 80%;
-    margin: auto;
     font-weight: 600;
-    top: -5rem;
-    left: rem;
-
+    padding: 0;
 }
 
 .trending-list{

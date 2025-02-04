@@ -1,16 +1,15 @@
 .question-section {
     width: 100%;
     max-width: 192rem;
-    height: 80rem;
     background-color: black;
-    position: relative;
     margin: auto;
-    top: -5rem;
+    margin-bottom: 5rem;
 }
 
 .question-content {
     width: 80%;
     margin: auto;
+    overflow: auto;
 }
 
 .question-text {
@@ -24,7 +23,6 @@
     flex-direction: column;
     row-gap: 1rem;
     width: 100%;
-    height: auto;
     max-height: 100rem;
     background-color: black;
     margin-top: 2rem;
@@ -37,34 +35,40 @@
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
+
 }
 
 .accordion-top {
     font-size: 2.5rem;
-    height: 4.4rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 2.5rem;
-    border-bottom: 2px solid black
+    border-bottom: 2px solid black;
+
+}
+
+.accordion-top:hover {
+    background: rgb(79, 79, 79);
 }
 
 
-.fa-solid {
+.cross {
     font-size: 4rem;
-    transition: 0.1s all;
+    transform: rotate(45deg);
+    transition: 0.3s all;
+
 }
 
 .accordion-bottom {
     display: none;
     font-size: 2.4rem;
     padding: 2.5rem;
-    height: auto;
-
+    transition: all 1s;
 }
 
 .show {
-    display: block;
+    display: block !important;
 }
 
 
@@ -75,21 +79,20 @@
 
 
 .animate {
-    transform: rotate(45deg);
+    transform: rotate(0deg);
     
 }
 
 .question-button {
-    width: 80%;
-    margin: auto;
     height: 10rem;
+    width: 100%;
     display: flex;
     align-items: center;
     margin-top: 5rem;
 }
 
 .sign-up2 {
-    background-color: rgb(193,17,25);;
+    background-color: rgb(193,17,25);
     width: 25rem;
     height: 5.6rem;
     color: white;
@@ -97,6 +100,12 @@
     padding: 0.3rem;
     border: none;
     border-radius: 1rem;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.sign-up2:hover {
+    background-color:rgb(125, 18, 24);
 }
 
 .sign-up2 i {

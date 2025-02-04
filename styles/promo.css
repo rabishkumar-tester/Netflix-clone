@@ -1,13 +1,11 @@
 .promo {
-    height: 35rem;
+    height: 55rem;
     width: 100%;
     margin: auto;
     max-width: 192rem;
     background: black;
     margin: auto;
-    position: relative;
     top: -10rem;
-    z-index: 55;
     margin-top: 3rem;
 
 }

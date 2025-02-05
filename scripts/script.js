@@ -22,3 +22,5 @@ accordions.forEach((accordion) => {
         }
     });
 });
+
+

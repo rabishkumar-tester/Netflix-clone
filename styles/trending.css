@@ -1,12 +1,12 @@
 .trending {
-    height: 60rem;
+    height: 50rem;
     width: 100%;
     max-width: 192rem;
     background: black;
     margin: auto;
     margin-top: 0rem;
     position: relative;
-
+    overflow: hidden !important;
 
 }
 
@@ -34,17 +34,25 @@
     width: 100%;
     margin: auto;
     gap: 5rem;
-    height: 30rem;
+    height: 26rem;
     padding-left: 3rem;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
     justify-content: space-between;
     overflow: hidden;
+
 }
 
 .trending-card {
     position: relative;
-    width: 18.7rem;
+    width: 24%;
     height: 26.3rem;
+    transition: all 0.2s;
     
+}
+
+.trending-card:hover {
+    transform: scale(1.1);
 }
 
 .card-image {
@@ -66,4 +74,68 @@
     text-shadow: 0 0 2rem rgba(163, 112, 112, 0.5);
     -webkit-text-stroke: 0.25rem rgb(245, 230, 230);;
     font-weight: 700;
+}
+
+
+@media (max-width: 1280px) {
+    .trending {
+        height: 42rem;
+        height: 30rem;
+    }
+    .trending-content {
+        width: 85% !important;
+        height: 35rem;
+    }
+    .card-image {
+        width: 12.5rem !important;
+        height: 18.5rem !important;
+    }
+    .card-number {
+        width: 6rem !important;
+        height: 15.6rem !important;
+        font-size: 8rem ;
+    }
+}
+
+@media (max-width: 960px) {
+    .trending {
+        height: 25rem !important;
+    }
+    .trending-content {
+        width: 95% !important;
+        height: 25rem;
+    }
+
+    .trending-text {
+        font-size: 2rem;
+    }
+    .trending-list {
+        gap: 5rem;
+        height: 40.2rem;
+        padding: 1rem;
+        margin-top: 0;
+        margin-bottom: 0;
+
+    }
+
+    .trending-card {
+        width: 13.6%;
+        height: 18.3rem;
+        display: flex;
+        justify-content: center;
+    }
+
+    .trending-list {
+        height: 20rem;
+    }
+    .card-image {
+        width: 9.5rem !important;
+        height: 14.9rem !important;
+    }
+    .card-number {
+        width: 3.8rem !important;
+        height: 9.4rem !important;
+        font-size: 7rem ;
+        left: -2.1rem;
+    }
 }

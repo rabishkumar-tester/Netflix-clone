@@ -83,3 +83,13 @@ header {
     background-color: rgb(193,17,25);
     cursor: pointer;
 }
+
+@media (max-width: 960px) {
+    .navbar {
+        width: 95%;
+    }
+
+    .navbar .nav-left .top-svg {
+        width: 8.8rem !important;
+    }
+}

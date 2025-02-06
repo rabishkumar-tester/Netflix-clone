@@ -57,6 +57,8 @@ main {
 
 
 @media screen and (max-width: 480px){
+
+    
     .curve-container::before {
         width: 135%;
         height: 150%;

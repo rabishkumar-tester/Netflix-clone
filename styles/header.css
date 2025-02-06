@@ -31,6 +31,11 @@ header {
     height: 4rem;
 
 }
+
+.logo {
+    height: 60px;
+    width: 130px;
+}
 .nav-right {
     display: flex;
     align-items: center;

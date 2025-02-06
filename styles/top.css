@@ -175,3 +175,26 @@
         margin-bottom: 1.5rem;
     }
 }
+
+@media  screen and (max-width: 480px) {
+
+    .top {
+        height: 72rem !important;
+    }
+    .center-content .text {
+        width: 33rem !important;
+    }
+
+    .top-h1 {
+        font-size: 2.6rem;
+    }
+
+    .top-button {
+        width: 21rem;
+        font-size: 2.4rem;
+        margin-top: 3rem;
+    }
+
+
+
+}

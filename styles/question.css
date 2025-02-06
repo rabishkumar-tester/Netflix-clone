@@ -146,6 +146,22 @@
 }
 
 
+@media screen and (max-width: 480px) {
+    .p-promo {
+        margin-top: 1.8rem;
+    }
+    .accordion-top {
+        font-size: 1.8rem !important;
+    }
+
+    .sign-up2 {
+        width: 20rem !important;
+        font-size: 2.2rem; 
+    }
+
+
+}
+
 
 
 

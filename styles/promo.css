@@ -124,3 +124,14 @@
         font-size: 1.5rem !important;
     }
 }
+
+
+@media screen and (max-width: 480px){
+    .promo {
+        height: 95rem !important;
+    }
+
+    .promo-card {
+        height: 21rem !important;
+    }
+}
